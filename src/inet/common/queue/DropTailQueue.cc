@@ -76,5 +76,10 @@ bool DropTailQueue::isEmpty()
     return queue.isEmpty();
 }
 
+bool DropTailQueue::isEmptyPublic()
+{
+    return queue.isEmpty();
+}
+
 } // namespace inet
 

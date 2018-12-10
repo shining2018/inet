@@ -62,6 +62,9 @@ class INET_API DropTailQueue : public PassiveQueueBase
      * Redefined from IPassiveQueue.
      */
     virtual bool isEmpty() override;
+
+  public:
+    bool isEmptyPublic();
 };
 
 } // namespace inet

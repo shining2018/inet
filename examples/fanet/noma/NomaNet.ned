@@ -15,8 +15,8 @@
 
 package inet.examples.fanet.noma;
 
-import inet.fanet.node.UAV;
-import inet.fanet.node.BS;
+import inet.ldmac.node.UAV;
+import inet.ldmac.node.BS;
 
 network NomaNet
 {
